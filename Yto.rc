@@ -1,0 +1,384 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\yto.ico"
+IDR_YTOALL              ICON                    "res\\ytoall.ico"
+IDI_ICON1               ICON                    "res\\icon1.ico"
+IDI_ICON2               ICON                    "res\\icon2.ico"
+IDI_ICON3               ICON                    "res\\icon3.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SERVICEDLG DIALOGEX 0, 0, 312, 178
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定(&E)",IDOK,231,143,53,17
+    LTEXT           "http://www.yto.net.cn",IDC_HTTPYTO,72,58,75,8
+    LTEXT           "http://wap.yto56.cn",IDC_WAPYTO,72,99,67,8
+    LTEXT           "http://j2me.yto.net.cn",IDC_J2MEYTO,72,113,74,8
+    LTEXT           "咨询电话 :",IDC_STATIC,181,58,38,8
+    CTEXT           "Wap圆通 :",IDC_STATIC,33,99,36,8
+    GROUPBOX        "",IDC_STATIC,7,48,145,39
+    GROUPBOX        "",IDC_STATIC,7,130,200,39
+    CTEXT           "寄快件 找圆通",IDC_SERVICETITLE,143,22,162,26
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,16,56,1,25
+    GROUPBOX        "",IDC_STATIC,160,48,145,39
+    GROUPBOX        "",IDC_STATIC,7,89,145,39
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,168,56,1,25
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,16,97,1,25
+    LTEXT           "圆通速递 :",IDC_STATIC,31,58,38,8
+    LTEXT           "手机客户端 :",IDC_STATIC,23,113,46,8
+    ICON            IDR_YTOALL,IDC_SERVICEPIC,46,12,21,20
+    GROUPBOX        "",IDC_STATIC,160,89,145,39
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,168,97,1,25
+    LTEXT           "投诉电话 :",IDC_STATIC,181,71,38,8
+    LTEXT           "021-69777888",IDC_STATIC,224,58,48,8
+    LTEXT           "021-69777999",IDC_STATIC,224,71,48,8
+    LTEXT           "上海市青浦区华新镇华徐公路3029弄28号",IDC_STATIC,31,141,
+                    145,8
+    LTEXT           "邮政编码 :   201705",IDC_STATIC,31,153,68,8
+    CTEXT           "各网点电话 :",IDC_STATIC,181,99,46,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,16,138,1,25
+    LTEXT           "在线客服 :",IDC_STATIC,31,72,38,8
+    LTEXT           "进入",IDC_ONLINESERVICE,72,72,17,8
+    LTEXT           "请在网点查询中查询",IDC_STATIC,181,113,73,8
+END
+
+IDD_MAINDLG DIALOGEX 0, 0, 407, 215
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "圆通速递"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "快件追踪(&Q)",IDOK1,315,65,53,16
+    PUSHBUTTON      "网点查询(&W)",IDOK2,315,120,53,16
+    PUSHBUTTON      "圆通客服(&E)",ID_SERVICE,315,175,53,16
+    CTEXT           "当交给了圆通工作人员您的快件就有了唯一的编号\n\n您可以在此追踪您的快件现在位置以及经过的路程",
+                    IDC_STATIC,114,60,180,27
+    CTEXT           "您可以在此处通过各类关键字查询圆通拥有的网点\n\n显示各类信息如联系电话、派送范围、不派送范围",
+                    IDC_STATIC,114,114,180,27
+    LTEXT           "圆通速递所有工作人员为您提供最诚挚贴心的服务\n\n下载查询工具的手机版本享受圆通无处不在的服务",
+                    IDC_STATIC,114,169,180,27
+    ICON            IDR_YTOALL,IDC_MAINPIC,306,11,20,20
+    ICON            IDI_ICON1,IDC_ICON1,42,57,20,20
+    LTEXT           "圆 通 速 递",IDC_MAINTITLE,50,9,196,28
+    LTEXT           "中国一流速递企业",IDC_STATIC,233,39,65,8
+    ICON            IDI_ICON3,IDC_ICON3,42,167,20,20
+    ICON            IDI_ICON2,IDC_ICON2,42,112,20,20
+    GROUPBOX        "",IDC_STATIC,18,156,372,50
+    GROUPBOX        "",IDC_STATIC,18,101,372,50
+    GROUPBOX        "",IDC_STATIC,18,46,372,50
+END
+
+IDD_BILLDLG DIALOGEX 0, 0, 241, 142
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "查询运单"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,19,22,88,85,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN | ES_NUMBER
+    DEFPUSHBUTTON   "查询(&Q)",IDOK,41,116,50,14
+    PUSHBUTTON      "退出(&E)",IDCANCEL,149,116,50,14
+    GROUPBOX        "在线运单查询",IDC_STATIC,7,7,227,128
+    LTEXT           "° 请输入十位圆通数字运单号\n\n\n° 一次可以跟踪十个圆通单号\n\n\n° 勿将查询结果用作其他用途",
+                    IDC_STATIC,118,33,106,64
+END
+
+IDD_BRANCHDLG DIALOGEX 0, 0, 211, 110
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "查询网点"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,83,24,96,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "查询(&Q)",IDOK,45,77,50,14
+    COMBOBOX        IDC_COMBO1,83,51,96,28,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "退出(&E)",IDCANCEL,122,77,50,14
+    GROUPBOX        "在线网点查询",IDC_STATIC,7,7,197,96
+    LTEXT           "关键字 :",IDC_STATIC,40,26,30,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,24,19,2,77
+    LTEXT           "  类型 :",IDC_STATIC,40,53,26,8
+END
+
+IDD_WAITDLG DIALOGEX 0, 0, 186, 114
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "取消(&E)",IDCANCEL,129,93,50,14
+    LTEXT           "正在查询请稍后...",IDC_STATIC,60,37,65,8
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER | 0x1,35,
+                    61,114,14
+END
+
+IDD_VERIFICATIONDLG DIALOGEX 0, 0, 175, 84
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,82,7,76,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定(&Q)",IDOK,25,63,50,14
+    PUSHBUTTON      "取消(&E)",IDCANCEL,100,63,50,14
+    LTEXT           "请输入验证码 :",IDC_STATIC,17,9,54,8
+    LTEXT           "0",IDC_VERIFYA,31,38,8,8
+    LTEXT           "0",IDC_VERIFYB,66,38,8,8
+    LTEXT           "A",IDC_VERIFYC,101,38,8,8
+    LTEXT           "A",IDC_VERIFYD,136,38,8,8
+END
+
+IDD_BRANCHRESULTSDIALOG DIALOGEX 0, 0, 359, 257
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "查询结果"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO2,7,7,127,15,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "确定(&E)",IDCANCEL,235,233,50,14
+    PUSHBUTTON      "保存结果(&Q)",IDOK,75,233,50,14
+    EDITTEXT        IDC_EDIT1,57,34,117,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT2,227,34,117,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT3,57,52,117,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT4,227,52,117,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT5,57,70,117,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT6,227,70,117,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT7,21,134,149,79,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    EDITTEXT        IDC_EDIT8,190,134,151,79,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    EDITTEXT        IDC_EDIT9,57,88,117,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT10,227,88,117,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT11,57,106,117,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT12,227,106,117,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "所在地区",IDC_STATIC,16,36,33,8
+    LTEXT           "经　　理",IDC_STATIC,187,36,33,8
+    LTEXT           "传真号码",IDC_STATIC,16,54,33,8
+    LTEXT           "电子邮箱",IDC_STATIC,187,54,33,8
+    LTEXT           "MSN账号",IDC_STATIC,16,72,31,8
+    LTEXT           "查询电话",IDC_STATIC,187,72,33,8
+    LTEXT           "派送时限",IDC_STATIC,16,90,33,8
+    LTEXT           "24小时件",IDC_STATIC,187,90,33,8
+    LTEXT           "特殊服务",IDC_STATIC,16,108,33,8
+    LTEXT           "备　　注",IDC_STATIC,187,108,33,8
+    GROUPBOX        "",IDC_STATIC,7,23,345,201
+    GROUPBOX        "派送范围",IDC_STATIC,16,125,159,92
+    GROUPBOX        "不派送范围",IDC_STATIC,185,125,159,92
+END
+
+IDD_BILLRESULTSDIALOG DIALOGEX 0, 0, 392, 166
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "查询结果"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO1,86,18,108,19,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "保存结果",IDC_OK2,320,62,50,14
+    PUSHBUTTON      "保存图像",IDC_OK3,320,26,50,14
+    DEFPUSHBUTTON   "确定",IDCANCEL,320,134,50,14
+    LTEXT           "圆通运单号 :",IDC_STATIC,28,20,46,8
+    GROUPBOX        "",IDC_STATIC,12,7,199,31
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_NOLABELWRAP | LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | 
+                    WS_BORDER | WS_TABSTOP,12,46,282,111
+    ICON            IDR_YTOALL,IDC_BILLPIC,223,9,21,20
+    PUSHBUTTON      "复制本条",IDC_OK1,320,98,50,14
+    GROUPBOX        "",IDC_STATIC,311,12,67,110
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_SERVICEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 305
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_MAINDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 400
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 208
+    END
+
+    IDD_BILLDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 234
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_BRANCHDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 204
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_WAITDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 107
+    END
+
+    IDD_VERIFICATIONDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 168
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_BRANCHRESULTSDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 352
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 250
+    END
+
+    IDD_BILLRESULTSDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 385
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "圆通速递"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "上海圆通"
+            VALUE "LegalCopyright", "Copyright 2009"
+            VALUE "OriginalFilename", "Yto.exe"
+            VALUE "ProductName", "圆通速递"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST ""res\\\\Yto.exe.manifest""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "res\\Yto.exe.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
