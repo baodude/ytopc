@@ -15,10 +15,10 @@ ytopc
 
 完成时间：2009年6月2日
 
-![截图](https://raw.github.com/baodude/ytopc/master/Screenshot/2013-02-03_204050.png)
-![截图](https://raw.github.com/baodude/ytopc/master/Screenshot/2013-02-03_204120.png)
-![截图](https://raw.github.com/baodude/ytopc/master/Screenshot/2013-02-03_204132.png)
-![截图](https://raw.github.com/baodude/ytopc/master/Screenshot/2013-02-03_204145.png)
-![截图](https://raw.github.com/baodude/ytopc/master/Screenshot/2013-02-03_204205.png)
-![截图](https://raw.github.com/baodude/ytopc/master/Screenshot/2013-02-03_204447.png)
-![截图](https://raw.github.com/baodude/ytopc/master/Screenshot/2013-02-03_204459.png)
+![截图](master/Screenshot/2013-02-03_204050.png)
+![截图](master/Screenshot/2013-02-03_204120.png)
+![截图](master/Screenshot/2013-02-03_204132.png)
+![截图](master/Screenshot/2013-02-03_204145.png)
+![截图](master/Screenshot/2013-02-03_204205.png)
+![截图](master/Screenshot/2013-02-03_204447.png)
+![截图](master/Screenshot/2013-02-03_204459.png)
