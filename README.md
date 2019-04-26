@@ -7,8 +7,6 @@ ytopc
 
 编译好的exe程序在Release文件夹内，运行截图在Screenshot文件夹内
 
-作者：宝哥哥
-
 应用环境：Windows全平台
 
 开发环境：VC++ WTL/Microsoft Visual Studio
